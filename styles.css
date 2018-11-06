@@ -20,7 +20,7 @@ p, label {
 }
 
 #memeOut {
-  white-space:pre;
+  white-space:pre-wrap;
 }
 
 #mainContent {
