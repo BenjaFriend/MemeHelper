@@ -76,3 +76,28 @@ https://codepen.io/FelipeMarcos/pen/tfhEg*/
 /* color classes for .btn */
 .btn.blue {box-shadow: 0px 4px #74a3b0;}
 .btn.blue:active {box-shadow: 0 0 #74a3b0; background-color: #709CA8;}
+
+
+
+/************ Mobile options *****************/
+
+/* Tablet kinda adjustments */
+@media screen and (max-width: 910px) {
+
+  #mainContent {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/** Moible adjustments */
+@media screen and (max-width: 400px) {
+  #mainContent {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
